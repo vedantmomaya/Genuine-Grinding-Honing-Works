@@ -9,7 +9,8 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <!-- Removed generic favicon -->
+  <!-- Mechanical gear favicon -->
+  <link rel="icon" href="assets/img/gear-favicon.ico" type="image/x-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -26,7 +27,24 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  
+  <style>
+    .company-logo {
+      height: 80px;
+      width: 100%;
+      object-fit: contain;
+      padding: 5px;
+      transition: box-shadow 0.3s ease-in-out;
+      border-radius: 5px;
+    }
+    
+    .company-logo:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+  </style>
 </head>
+
+
 
 <body class="index-page">
 
@@ -90,11 +108,34 @@
             <div class="content">
               <h3>Our Group of Companies</h3>
               <p>We operate a diversified set of engineering and industrial service brands:</p>
-              <ul>
-                <li><strong>Genuine Grinding & Honing Works:</strong> Precision job work including honing, boring, and die grinding for hydraulic parts and OEM equipment. Known for industrial-grade finishing and custom components.</li>
-                <li><strong>Shree Zolai Engineering Works:</strong> Our legacy machine shop offering manual and semi-automated machining for industrial repair, fabrication, and general job work.</li>
-                <li><strong>Omkar Lifters:</strong> Crane rental and heavy lifting services across Maharashtra for infrastructure, construction, and plant installations.</li>
-              </ul>
+              
+              <div class="row align-items-center mb-3">
+                <div class="col-3">
+                  <img src="assets/img/geuine logo (1).jpeg" alt="Genuine Logo" class="img-fluid company-logo">
+                </div>
+                <div class="col-9">
+                  <p><strong>Genuine Grinding & Honing Works:</strong> Precision job work including honing, boring, and die grinding for hydraulic parts and OEM equipment. Known for industrial-grade finishing and custom components.</p>
+                </div>
+              </div>
+              
+              <div class="row align-items-center mb-3">
+                <div class="col-3">
+                  <img src="assets/img/zolai logo.jpeg" alt="Zolai Logo" class="img-fluid company-logo">
+                </div>
+                <div class="col-9">
+                  <p><strong>Shree Zolai Engineering Works:</strong> Our legacy machine shop offering manual and semi-automated machining for industrial repair, fabrication, and general job work.</p>
+                </div>
+              </div>
+              
+              <div class="row align-items-center mb-3">
+                <div class="col-3">
+                  <img src="assets/img/ol logo.jpeg" alt="Omkar Logo" class="img-fluid company-logo">
+                </div>
+                <div class="col-9">
+                  <p><strong>Omkar Lifters:</strong> Crane rental and heavy lifting services across Maharashtra for infrastructure, construction, and plant installations.</p>
+                </div>
+              </div>
+              
               <p>With a strong mechanical foundation and deep field knowledge, our companies provide high-quality, field-tested engineering solutions across industries.</p>
             </div>
           </div>
